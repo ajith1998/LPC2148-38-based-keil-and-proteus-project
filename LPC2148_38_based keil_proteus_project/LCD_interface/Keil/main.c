@@ -15,7 +15,7 @@ void main()
     IO0DIR|=0XFFF; //makes all the pins form 0 to 11 as output 
     lcd_int();
     cmd(0x80); //0x8a initially //0x80 - from the start
-    string("EMBETRONICX.COM ");
+    string("WELCOME AJITH");
 	
     while(1) 
 		{
